@@ -45,21 +45,17 @@ mockstar-cli 安装完成后，执行命令 `mockstar --help`，查看帮助信�
 ```
 $ mockstar --help
 
-
   Usage: mockstar [options] [command]
 
-
   Commands:
-      start                                    Start local server.
-      init                                     Initialize project.
-      stop                                     Stop local server.
-      pm2                                      Commands pass to pm2.
-
+      start    Start local server.
+      init     Initialize project.
 
   Options:
-      --version, -[v]           Print version and exit successfully.
-      --help, -[h]              Print this help and exit successfully.
-
+      -v, --version          Print mockstar version.
+      -h, --help             Print help information.
+      -w, --watch            Enter watch mode, which rebuilds or restart server on file change.
+      --dev                  Debug for development.
 
   Report bugs to https://github.com/mockstarjs/mockstar/issues.
 ```
