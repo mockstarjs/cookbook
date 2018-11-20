@@ -1,6 +1,6 @@
 # 安装启动
 
-在 MockStar 来构建 mock server 之前，需要安装 Node 和 [mockstar-cli](https://www.npmjs.com/package/mockstar-cli) 。
+在使用 MockStar 来构建 mock server 之前，需要先安装 Node 和 [mockstar-cli](https://www.npmjs.com/package/mockstar-cli) 。
 
 ## 1. 安装 Node 
 
