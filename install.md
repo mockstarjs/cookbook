@@ -1,4 +1,4 @@
-# 安装启动
+# 安装和升级
 
 在使用 MockStar 来构建 mock server 之前，需要先安装 Node 和 [mockstar-cli](https://www.npmjs.com/package/mockstar-cli) 。
 
@@ -20,6 +20,8 @@ v4.4.0
 ## 2. 安装 mockstar-cli
 
 [mockstar-cli](https://www.npmjs.com/package/mockstar-cli) 提供了一些命令行，用于初始化项目和启动 mock server 服务等。
+
+> 该组件并非一定要安装，使用时可以参考 [非 CLI 方式](use-mockstar-without-cli.md) 一文。
 
 Node 安装成功后，执行如下 npm 命令安装 mockstar-cli （Mac或Linux的非root用户需要在命令行前面加 `sudo`，如：`sudo npm install -g mockstar-cli`）。
 
@@ -61,3 +63,9 @@ $ mockstar --help
 ```
 
 如果能正常输出 MockStar 的帮助信息，表示已安装成功。
+
+## 3. 升级 mockstar-cli
+
+> 为了能使用 MockStar 的所有功能，请记得将其升级到最新版本。
+
+升级命令与安装命令类似，请参考上一节内容。
