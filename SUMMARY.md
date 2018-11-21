@@ -5,7 +5,8 @@
 * [快速上手](getting-started.md)
 * [非 CLI 方式](use-mockstar-without-cli.md)
 
-## 示例说明
+## 技术细节
 
-* [Untitled](shi-li-shuo-ming/untitled.md)
+* [基本概念](details-of-mockstar/basic-concepts.md)
+* [整体架构](details-of-mockstar/constructor.md)
 

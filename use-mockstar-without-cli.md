@@ -1,6 +1,6 @@
 # 非 CLI 方式
 
-有些场景下不适合使用 CLI 命令来启动 mock server，MockStar 也提供[mockstar-local-server](https://www.npmjs.com/package/mockstar-local-server)来支持。
+有些场景下不适合使用 CLI 命令来启动 mock server，MockStar 提供[mockstar-local-server](https://www.npmjs.com/package/mockstar-local-server)来支持。
 
 最简单的例子详见 https://github.com/mockstarjs/mockstar/blob/master/packages/mockstar-local-server/demo/01/index.js
 
