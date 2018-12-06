@@ -2,11 +2,13 @@
 
 按照 [安装和升级](install.md) 一文配置好环境之后，开始我们的使用 MockStar 之旅。
 
-## 1. 初始化项目
+## 1. 初始化语法
 
 `mockstar init` 语法：
 
 ![`mockstar init` 语法](./images/mockstarinit.png)
+
+## 2. 初始化项目
 
 运行如下命令初始化一个项目：
 
@@ -16,7 +18,7 @@ $ mockstar init project
 
 按照提示操作即可。
 
-## 2. 安装依赖
+## 3. 安装依赖
 
 初始化完成之后，进入到我们的项目中，手动安装 npm 包依赖。假设我们的项目名称为 `mockstar-app`，则：
 
@@ -25,7 +27,9 @@ $ cd mockstar-app
 $ npm isntall
 ```
 
-## 3. 启动项目
+## 4. 项目结构
+
+## 5. 启动项目
 
 执行如下命令即完成项目的启动了：
 
@@ -36,7 +40,7 @@ $ npm start
 $ mockstar start --dev --watch
 ```
 
-## 4. 打开管理端
+## 6. 打开管理端
 
 默认情况下，mock server 会使用 `9527` 端口，因此打开浏览器，访问 `127.0.0.1:9527`。你可以激活不同的桩数据，体验自由切换桩数据的功能。
 
@@ -44,7 +48,7 @@ $ mockstar start --dev --watch
 
 > 当使用了 `--watch` 之后，我们会监听 `mockServerPath` 值对应的目录文件变化，自动重启服务。
 
-## 5. 新增 mocker 桩对象
+## 7. 新增 mocker 桩对象
 
 在 `mockstar-app` 目录下，执行如下命令来快速新建一个 mocker: 
 
@@ -56,7 +60,7 @@ $ mockstar init mocker
 
 新建完成之后，我们唯一必须要修改的是目录下的 `config.js` 文件，设置其中的 `route` 值（请求的 path 值，不要加域名和 query 等）。该值用于匹配我们的 CGI，可参考 [Express router](http://expressjs.com/en/4x/api.html#router) 的说明。
 
-## 6. 新增桩数据
+## 8. 新增桩数据
 
 在管理端刷新之后，会发现我们的 mocker 已经存在，接下来就需要根据自己的需要修改 `mock_modules` 下的桩数据即可！
 
