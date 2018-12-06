@@ -28,6 +28,15 @@ $ npm isntall
 ```
 
 ## 4. 项目结构
+![`mockstar` 项目结构](./images/mockstarinit.png)
+- `mock_server` 文件夹
+
+    `lib` 文件夹中存放一些 mocker 桩对象用到的公共方法及数据；
+
+    `mockers` 存放后面生成的 mocker 桩对象
+- `mockstar.config.js` 配置文件
+
+    配置对应 mocker 桩对象存放的地址
 
 ## 5. 启动项目
 
