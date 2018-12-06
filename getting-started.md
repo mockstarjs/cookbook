@@ -28,7 +28,7 @@ $ npm isntall
 ```
 
 ## 4. 项目结构
-![`mockstar` 项目结构](./images/mockstarinit.png)
+![`mockstar` 项目结构](./images/mockstarproject.png)
 - `mock_server` 文件夹
 
     `lib` 文件夹中存放一些 mocker 桩对象用到的公共方法及数据；
