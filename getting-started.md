@@ -6,7 +6,7 @@
 
 `mockstar init` 语法：
 
-![image.png](./images/mockstarinit.png)
+![image.png](images/mockstarinit.png)
 
 运行如下命令初始化一个项目：
 
