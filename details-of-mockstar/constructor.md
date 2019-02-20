@@ -19,7 +19,3 @@ mock server 服务是基于 [Express](http://expressjs.com) `4.x` 版本实现�
 
 无需依赖数据库，MockStar 是基于文件系统来构造 mock server 的。只需要按照约定的规则编写桩对象和桩数据，MockStar 会自动识别分析，最后结合 Express，生成一个 mock server 和对应的后台管理页面。
 
-## 3. 
-
-
-
