@@ -16,3 +16,4 @@
 
 * [mockstar.config.js 配置](config/mockstar-config.md)
 * [mocker 的 config.json 配置](config/mocker-config.md)
+* [mock module 的 config.json 配置](config/mock-module-config.md)
